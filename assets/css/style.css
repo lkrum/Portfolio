@@ -1,0 +1,93 @@
+* {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+  margin: 0 auto;
+}
+
+header {
+  padding-bottom: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+img {
+  height: 15vw;
+  object-fit: contain;
+}
+
+#icon {
+  object-fit: contain;
+  max-width: 260px;
+}
+
+/* #icon-container {
+  position: relative;
+  margin: 0;
+} */
+
+.w3-panel img {
+  display: inline-block;
+  position: relative;
+}
+
+#linkedIn {
+  margin-right: 20px;
+}
+
+#git {
+  margin-right: -30px;
+}
+
+#bg-color {
+  background-color: #f5f0ff;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.w3-bar-block {
+  margin-left: 40px;
+  /* margin-bottom: -30px; */
+}
+
+#contact {
+  background-color: #8966ca;
+}
+
+#social-media {
+  font-size: 16px;
+}
+img:hover {
+  border: none;
+}
+
+#mySidebar {
+  background-color: #c0c0c0 !important;
+  text-align: center;
+}
+
+
+#about p {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    max-width: 100%;
+  }
+
+  nav {
+    margin: 40px 0;
+  }
+
+  #profile {
+    width: 50px;
+    height: 50px;
+  }
+
+  .socials {
+    font-size: 8px;
+    padding: 3px;
+  }
+}
