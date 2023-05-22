@@ -5,6 +5,8 @@
 ## Description
 This is my professional portfolio to demonstrate the work I have done in the University of Texas's Fullstack Coding Bootcamp.
 
+Link to deployed page: https://lkrum.github.io/Portfolio/
+
 ## Credits 
 I created this portfolio using a template from [W3Schools](https://www.w3schools.com/w3css/tryw3css_templates_portfolio.htm).
 
