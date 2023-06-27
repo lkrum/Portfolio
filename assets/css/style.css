@@ -12,10 +12,10 @@ header {
   padding-top: 20px;
 }
 
-img {
+/* img {
   height: 15vw;
   object-fit: contain;
-}
+} */
 
 #icon {
   object-fit: contain;
@@ -41,7 +41,7 @@ img {
 }
 
 #bg-color {
-  background-color: #f5f0ff;
+  background-color: #e7e5ec;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
@@ -52,12 +52,13 @@ img {
 }
 
 #contact {
-  background-color: #8966ca;
+  background-color: rgb(170, 170, 170);
 }
 
 #social-media {
   font-size: 16px;
 }
+
 img:hover {
   border: none;
 }
@@ -67,9 +68,68 @@ img:hover {
   text-align: center;
 }
 
-
 #about p {
   font-size: 18px;
+}
+
+button {
+  background-color: #ae84c9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 0 20px 20px 20px;
+  font-size: 20px;
+  text-align: center;
+  padding: 6px 15px
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.row-one {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.row-two {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.row-three {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #9361b3;
+}
+
+a {
+  text-decoration: none;
+}
+
+.email {
+  background-color: #ae84c9;
+  color: white;
+}
+
+.location {
+  background-color: #cdb4f6;
+  color: #4b4b4b;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around;
 }
 
 @media screen and (max-width: 576px) {
